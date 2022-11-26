@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ea77o=yrl8=c#@2=l!%6ih435)3gla*$ja&svcm1skcoya-dhw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Jobs.herokuapp.com']
 
 
 # Application definition
@@ -78,15 +78,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'Mohan',
+        'NAME': 'datdhqvhr0aset',
 
-        'USER': 'postgres',
+        'USER': 'kagyybjmynvslf',
 
-        'PASSWORD': 'Mohan@2002',
+        'PASSWORD': 'dd3d7aa1442e2521626c1af1ba16c830e3ce3f51ea5795e518e9d667845b633b',
 
-        'HOST': 'localhost',
+        'HOST': 'ec2-44-195-132-31.compute-1.amazonaws.com',
 
-        'PORT': '1709',
+        'PORT': '5432',
     }
 }
 
@@ -129,7 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
