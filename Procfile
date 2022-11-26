@@ -1,1 +1,1 @@
-app = manage.py
+web: gunicorn Jobs.wsgi
